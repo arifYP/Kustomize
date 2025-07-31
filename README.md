@@ -94,6 +94,11 @@ kubectl kustomize overlay/
 kubectl apply -k overlay/
 ```
 
+### ▶️ See the Development Overlay Output
+```
+kubectl kustomize ./overlays/development
+```
+
 ## What's Happening?
 1. Kustomize reads the base configuration
 2. It applies the changes specified in the overlay:
